@@ -1,62 +1,177 @@
 <!DOCTYPE html>
-<html lang="en>"
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="header ">
-
+    <header class="header">
         <a href="#home" class="logo">
             Nana <span>Sokhulu</span></a>
 
-    <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-menu" id="menu-icon"></i>
 
-    <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <button class-"gradient-btn">Contact Me</button>
+        <button class="gradient-btn">Contact Me</button>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hello, It's <span>Nana</span></h1>
-            <h3>
-                I'm a <span>Web Developer</span>
-            </h3>
-            <p>Need a dope website? Contact me.</p>
+            <h1>Hi, I'm <span>Nana</span></h1>
+            <h3><span>Web Developer</span> and Data Analyst</h3>
+            <p>Full-stack developer by code, a data analyst by numbers, and a problem solver by passion!</p>
             <div class="social-icons">
-                <a href="#">
-                    <i class="bx bx1-github"></i>
+                <a href="#" target="_blank">
+                    <i class="bx bxl-github"></i>
                 </a>
 
-                <a href="#">
-                    <i class="bx bx1-linkedin-square"></i>
+                <a href="#" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
                 </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" 
+                class="btn">Contact</a>
+            </div>
         </div>
 
-        <div class="btn-group">
-            <a href="#" class="btn">Hire</a>
-            <a href="contact" class="btn">Contact</a>
-            </div>
-
-            <div class="hime-img">
-                <img src="image.jpeg" alt="">
-            </div>
-        </section>
-            <div class="home-img"></div> 
-
+            <div class="home-img">
+                <img src="image.JPG" alt="">
+            </div> 
+        </div>
     </section>
 
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.JPG" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Full-stack developer and data analyst in Durban, South Africa, passionate about turning ideas into code and data into decisions – always learning, always evolving.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+    <h2 class="heading">Services</h2>
+
+<div class="services-container">
+    <div class="service-box">
+        <div class="service-info">
+            <i class="bx bx-code"></i>
+            <h4>Frontend Development</h4>
+            <p>Turning HTML, CSS, JavaScript, TypeScript into eye candy – because first impressions matter!</p>
+</div>
+    </div>
+        
+
+<div class="service-box">
+    <div class="service-info">
+    <i class="bx bx-code-curly"></i>
+    <h4>Backend Development</h4>
+    <p>The invisible force (Node.js, Ruby, Java) that makes your app run like a well-oiled machine – no cape required.</p>
+    </div>
+    </div>
+
+<div class="service-box">
+    <div class="service-info">
+    <i class="bx bx-chart"></i>
+    <h4>Data Analysis</h4>
+    <p>Using SQL (MySQL, PostgreSQL, SQLite) NoSQL (MongoDB), I take your data, shake it up, and serve it with the insights you never knew you needed.</p>
+    </div>
+    </div>
+ </div>
+</section>
+
+<section class="projects" id="projects">
+
+    <h2 class="heading">Projects</h2>
+
+    <div class="projects-box">
+        <div class="btn">View Projects</div>
+    </div>
+</section> 
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text"
+                placeholder="Full Name">
+                <input type="email"
+                placeholder="Email">
+            </div>
+
+            <div class="input-box"> 
+                <input type="number"
+                placeholder="Phone Number">
+                <input type="text"
+                placeholder="Subject">
+            </div>
+        </div>
+
+        <div class="input-group-2">
+            <textarea name="" id=""         
+            placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+        
+ </form>
+</section> 
+
+<footer class="footer"> 
+    <div class="social-icons">
+        <a href="#" target="_blank">
+            <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="#" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+        </a>
+    </div>
+
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+
+        <li>
+            <a href="services">Services</a>
+        </li>
+
+        <li>
+            <a href="about">About Me</a>
+        </li>
+
+        <li>
+            <a href="projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="contact">Contact</a>
+        </li>
+    </ul>
+
+        <p class="copyright">
+         &copy; Nana Sokhulu | All Rights Reserved
+        </p>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
